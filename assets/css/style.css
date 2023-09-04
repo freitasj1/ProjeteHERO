@@ -81,3 +81,20 @@ body.dark-theme {
 --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
 --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
+/*========== Button Dark/Light ==========*/
+.nav__btns {
+    display: flex;
+    align-items: center;
+
+}
+
+.change-theme {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
+
+.change-theme:hover {
+    color: var(--first-color);
+}
