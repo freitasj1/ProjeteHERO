@@ -284,7 +284,7 @@ img {
        display: inline-block;
         background: transparent;
         color: var(--first-color);
-        border-color: var(--first-color);
+        border-color: #000;
         border-style: solid;
         border-width: 0.125rem;
         border-radius: 1rem;
@@ -670,7 +670,8 @@ img {
 }
 
 .project__title, .project__description {
-    color: #FFF;
+    color: #000;
+    font-weight: 900;
 }
 
 .project__img {
@@ -1136,7 +1137,7 @@ img {
         }
 
         .project__container {
-            background-image: url('https://github.com/freitasj1/ProjeteHERO/blob/main/assets/img/projetelogo.png?raw=true');     
+            background-image: url('https://github.com/freitasj1/ProjeteHERO/blob/main/assets/img/projete770.png?raw=true');     
             background-repeat: no-repeat; 
             background-size: cover;
             border-radius: 1rem;
