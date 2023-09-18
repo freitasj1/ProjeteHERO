@@ -401,11 +401,14 @@ img {
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
-
+    background-color: var(--first-color);
+    box-shadow:0 0 5px #0099ff, 0 0 10px #0099ff;
+    margin-bottom: 30px;
 }
 
 .button:hover {
     background-color: var(--first-color-alt);
+    box-shadow: 0 0 10px #0099ff, 0 0 25px #0099ff, 0 0 50px #0099ff;
 }
 
 .button__icon {
@@ -562,6 +565,8 @@ img {
 
 .services__modal-service {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services__modal-title {
@@ -583,6 +588,27 @@ img {
     color: var(--first-color);
     margin-right: var(--mb-0-25);
 
+}
+
+.integrantes {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20px 0;
+    opacity: 0.6;   
+}
+
+.integrantes:hover {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 30px 0;
+    opacity: 1;  
+    scale: 1.1; 
+    transition: 0.5s;
+    rotate: 5deg;
+}
+
+.integrantes:not(:hover) {
+transition: 0.5s;
 }
 
 /* Active Modal */
