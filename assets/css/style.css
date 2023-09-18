@@ -656,9 +656,6 @@ img {
 }
 
 .project__bg {
-    background-image: url('C:\Users\João Pedro\Downloads\ProjeteHERO\ProjeteHERO\assets\img\projetelogo.png');     
-    background-repeat: no-repeat; 
-    background-size: cover;
     padding-top: 3rem;
 }
 
@@ -1139,6 +1136,9 @@ img {
         }
 
         .project__container {
+            background-image: url('https://github.com/freitasj1/ProjeteHERO/blob/main/assets/img/projetelogo.png?raw=true');     
+            background-repeat: no-repeat; 
+            background-size: cover;
             border-radius: 1rem;
             padding: 3rem 2.5rem 0;
             grid-template-columns: 1fr max-content;
