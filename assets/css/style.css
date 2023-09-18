@@ -415,12 +415,14 @@ img {
 }
 
 .button--white {
-    background-color: #FFF;
-    color: var(--first-color)
+    background-color: var(--first-color);
+    color: #333;
+    box-shadow:0 0 5px #0099ff, 0 0 10px #0099ff;
+    margin-bottom: 30px;
 }
 
 .button--white:hover {
-    background-color: #FFF;
+    box-shadow: 0 0 10px #0099ff, 0 0 25px #0099ff, 0 0 50px #0099ff;
 }
 
 .button--flex {
@@ -654,7 +656,9 @@ img {
 }
 
 .project__bg {
-    background-color: var(--first-color-second);
+    background-image: url('C:\Users\João Pedro\Downloads\ProjeteHERO\ProjeteHERO\assets\img\projetelogo.png');     
+    background-repeat: no-repeat; 
+    background-size: cover;
     padding-top: 3rem;
 }
 
@@ -676,6 +680,7 @@ img {
     width: 300px;
     vertical-align: top;
     justify-self:center;
+    margin: 80px;
 }
 
 /*==================== TESTIMONIAL ====================*/
@@ -1132,11 +1137,8 @@ img {
         .project {
             text-align: initial;
         }
-        .project__bg {
-            background: none;
-        }
+
         .project__container {
-            background-color: var(--first-color-second);
             border-radius: 1rem;
             padding: 3rem 2.5rem 0;
             grid-template-columns: 1fr max-content;
