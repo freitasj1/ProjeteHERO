@@ -1,5 +1,8 @@
 /*==================== GOOGLE FONTS ===================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
 
 /*==================== VARIABLES CSS ==================*/
 :root {
@@ -448,6 +451,15 @@ img {
 .button--link:hover {
     background-color: transparent;
     color: var(--first-color-alt);
+}
+
+.button-integrantes {
+    display: inline-block;
+    color: #0099ff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    
 }
 
 
@@ -985,6 +997,7 @@ transition: 0.5s;
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
+    
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1044,7 +1057,8 @@ transition: 0.5s;
 }
 
 /* For medium devices */
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 568px) {
+
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -1260,5 +1274,15 @@ transition: 0.5s;
     }
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video-container {
+        display: none;
+    }
+
+    .home__container {
+        display: none;
     }
 }
