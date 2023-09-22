@@ -172,6 +172,9 @@ strong{
 
 .title{
     color: var(--dark5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .second-section div{
@@ -186,12 +189,19 @@ strong{
     color: var(--dark4);
     font-weight: bold;
     letter-spacing: 2px;
+    text-decoration: none;
 }
 
-.second-section p:hover{
+.second-section a:hover{
     color: var(--dark5);
     transition: .4s;
     cursor: default;
+    scale: 1.1;
+}
+.second-section a:not(:hover){
+    color: var(--dark4);
+    scale: 1;
+    transition: 0.4s;
 }
 
 .third-section{
@@ -235,6 +245,7 @@ strong{
 #my-projects-list a:hover{
     transition: .4s;
     color: var(--dark4);
+    
 }
 
 :is(.img-profile,.img-who-am-i){
