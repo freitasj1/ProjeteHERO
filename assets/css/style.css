@@ -10,7 +10,7 @@
 
     /*================== Colors ======================*/
     /* Change favorite color */
-    --hue-color: 240; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: #0099ff;
@@ -606,7 +606,8 @@ img {
     width: 15rem;
     height: 15rem;
     border-radius: 20px 0;
-    opacity: 0.6;   
+    opacity: 0.8;   
+    
 }
 
 .integrantes:hover {
@@ -614,9 +615,8 @@ img {
     height: 16rem;
     border-radius: 30px 0;
     opacity: 1;  
-    scale: 1.1; 
+    scale: 1.01; 
     transition: 0.5s;
-    rotate: 5deg;
 }
 
 .integrantes:not(:hover) {
@@ -765,6 +765,7 @@ transition: 0.5s;
 .faq__header {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: var(--mb-2-5);
     cursor: pointer;
 }
@@ -800,6 +801,7 @@ transition: 0.5s;
     row-gap: 1.5rem;
     padding-left: 2.7rem;
 }
+
 
 .faq__titles {
     display: flex;
@@ -976,16 +978,13 @@ transition: 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%; /* Proporção de 16:9 (9 / 16 * 100) */
-    overflow: hidden;
+    height: 400px;
+    width: 800px;
+
   }
   
   .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+   
     width: 100%;
     height: 100%;
   }
