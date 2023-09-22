@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form in HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="faviconpreto.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form action="" id="login-form">
+            <h1>Login</h1>
+            
+            <div class="input-box">
+                <input type="text" placeholder="Usuário" id="username" required>  
+                <i class='bx bxs-user' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Senha" id="password"" required>  
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label for="">
+                    <input type="checkbox"> me lembra 
+                </label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+
+            <button type="submit" onclick="logar" class="btn">Login</button>
+            <p id="error-message" class="error-message"></p>
+
+            <div class="register-link">
+                <p>Não possui conta? <a href="mailto:projetoheroo@gmail.com" id="link" target="_blank">Entre em contato</a></p>
+            </div>
+        </form>
+    </div>    
+
+<script src="login.js"></script>
+
+</body>
+
+</html>
