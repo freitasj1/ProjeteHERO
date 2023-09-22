@@ -182,7 +182,7 @@ strong{
     flex-wrap: wrap;
 }
 
-.second-section p{
+.second-section a{
     color: var(--dark4);
     font-weight: bold;
     letter-spacing: 2px;
