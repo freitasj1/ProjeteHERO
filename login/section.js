@@ -1,16 +1,4 @@
-function redirecionar1() {
+function redirecionar() {
+    location.href = "google.com"
 
-    location.href = 'login\section-one.html';
-}
-function redirecionar2() {
-    
-    location.href = 'login\section-two.html';
-}
-function redirecionar3() {
-    
-    location.href = 'section-three.html';
-}
-function redirecionar4() {
-    
-    location.href = 'login\section-four.html';
 }

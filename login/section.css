@@ -292,3 +292,27 @@ footer > div{
     padding: 10px; 
     font-size: 35px; /* Tamanho do ícone (pode personalizar) */
 }
+
+.btn-link{
+    display: inline-block;
+    background-color: #0099ff;
+    color: #FFF;
+    padding: 1.125rem 2rem;
+    border-radius: .5rem;
+    box-shadow:0 0 5px #0099ff, 0 0 10px #0099ff;
+    scale:0.95;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-link:hover {
+    background-color: #0099ff;
+    border-color:#0099ff;
+    box-shadow: 0 0 10px #0099ff, 0 0 25px #0099ff, 0 0 50px #0099ff;
+    scale: 1.05;
+    transition: 0.5s;
+  }
+  .btn-link:not(:hover) {
+    scale: 0.95;
+    transition: 0.5s;
+  }
