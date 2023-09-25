@@ -1,4 +1,4 @@
-![Logo](assets/img/favicon.png)
+<img src="assets/img/favicon.png" width="300" height="300">
 
 
 # Título do Projeto
@@ -12,6 +12,12 @@ Nós somos a equipe 2408 formada por alunos do segundo ano técnico da escola ET
 
 
 ## Funcionalidades
+
+- 
+- 
+- 
+- 
+## Lista de materiais
 
 - 
 - 
@@ -37,7 +43,46 @@ Resposta 2
 
 ## Autores
 
-- [João Pedro](https://www.github.com/Freitasj1)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="foto-pessoa-1.jpg" width="100px" height="100px" alt="Nome da Pessoa 1">
+        <br>
+        <sub><b>Nome da Pessoa 1</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="foto-pessoa-2.jpg" width="100px" height="100px" alt="Nome da Pessoa 2">
+        <br>
+        <sub><b>Nome da Pessoa 2</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="foto-pessoa-3.jpg" width="100px" height="100px" alt="Nome da Pessoa 3">
+        <br>
+        <sub><b>Nome da Pessoa 3</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="foto-pessoa-4.jpg" width="100px" height="100px" alt="Nome da Pessoa 4">
+        <br>
+        <sub><b>Nome da Pessoa 4</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="foto-pessoa-5.jpg" width="100px" height="100px" alt="Nome da Pessoa 5">
+        <br>
+        <sub><b>Nome da Pessoa 5</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 
 ## Licença
