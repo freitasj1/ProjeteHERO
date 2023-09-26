@@ -6,9 +6,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO)
 
 
-<img align='center' src="assets/img/favicon.png" width="200" height="200">
-
-
 # Título do Projeto
 
 > Repositorio destinado ao nosso Projeto.
@@ -17,7 +14,10 @@ Nós somos a equipe 2408 formada por alunos do segundo ano técnico da escola ET
 
 ## Screenshots
 
-![App Screenshot](assets/img/esp32.png)
+
+<img align='left' src="assets/img/favicon.png" width="200" height="200">
+<img align='center' src="assets/img/favicon.png" width="200" height="200">
+<img align='right' src="assets/img/favicon.png" width="200" height="200">
 
 
 ## 💻Funcionalidades
