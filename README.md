@@ -23,33 +23,37 @@ Nós somos a equipe 2408 formada por alunos do segundo ano técnico da escola ET
 ## Screenshots
 
 
-<img align='left' src="assets/img/favicon.png" width="200" height="200">
-<img align='center' src="assets/img/favicon.png" width="200" height="200">
-<img align='right' src="assets/img/favicon.png" width="200" height="200">
+
+<img align='center' src="assets/img/" width="200" height="200">
 
 
-## 💻Funcionalidades
 
-- 
-- 
-- 
-- 
+## 💻 Vantagens
+
+- Desperta aptidão em pré-adolescentes pela robótica
+- Preço acessível para escolas públicas
+- Parte teórica e prática: Mão na massa!
+
 ## Lista de materiais
 
-- 
-- 
-- 
-- 
+>Cada um pode montar do seu jeito, nosso exemplo é apenas uma demonstração do que a robótica pode fazer
+
+- microcontrolador 
+- 4 motores dc + rodas
+- Base para fixar os componentes
+- ponte H de sua escolha 
+
+
 
 
 ## 📫Documentação
 
 > Confira nosso diario!
-<p align='center'>
+<p align='center'> Em testes!
  
-  <a href="https://eteacojeorg-my.sharepoint.com/:o:/g/personal/freitas_j_edu_etefmc_com_br/EgUp486kboZGrSqPbz-lGv4BfmcwCqUDRjT4-NkH4WhdEQ?e=SHGIee">
+  <!-- <a href="https://eteacojeorg-my.sharepoint.com/:o:/g/personal/freitas_j_edu_etefmc_com_br/EgUp486kboZGrSqPbz-lGv4BfmcwCqUDRjT4-NkH4WhdEQ?e=SHGIee">
     <img height="120em" src="assets/img/logoOneNote.png" />  
-  </a>&nbsp;&nbsp;
+  </a>&nbsp;&nbsp; -->
 </p>
 
 
@@ -93,7 +97,7 @@ Nosso projeto visa ensinar de forma interativa e  dinâmica os assuntos da robó
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://www.instagram.com/freitas.j1/">
         <img src="assets/img/integrantes/Joaopedro.jpeg" width="100px" height="100px" alt="Nome da Pessoa 4">
         <br>
         <sub><b>João Pedro</b></sub>
@@ -115,4 +119,4 @@ Nosso projeto visa ensinar de forma interativa e  dinâmica os assuntos da robó
 
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](https://github.com/freitasj1/ProjeteHERO/blob/main/LICENSE) para mais detalhes.
