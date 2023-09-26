@@ -1,6 +1,22 @@
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=flat-square&logoColor=%23d9d9d9&color=%230099ff)
+<!-- Divisão com flexbox -->
+<div style="display: flex; justify-content: space-between;">
+    <!-- Badge 1 -->
+    <a href="https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=flat-square&logoColor=%23d9d9d9&color=%230099ff"><img src="badge1.svg" alt="Last commit  "></a>
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/freitasj1/projeteHERO)
+    <a href="Vhttps://img.shields.io/github/languages/code-size/freitasj1/projeteHERO"><img src="badge2.svg" alt="Code size"></a>
+
+    <!-- Badge 3 -->
+    <a href="https://img.shields.io/github/languages/count/freitasj1/projeteHERO"><img src="badge3.svg" alt="Language"></a>
+
+    <img alt="GitHub commit activity (branch)" src="https://img.shields.io/github/commit-activity/y/freitasj1/projeteHERO?style=flat-square">
+
+</div>
+
+
+
+
+
+
 
 
 ![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO)
