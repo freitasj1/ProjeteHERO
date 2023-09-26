@@ -1,24 +1,15 @@
 # ProjetoHERO - 2k23 - Equipe 2408
 
-![GitHub repo size](https://img.shields.io/github/repo-size/freitasj1/projeteHERO)
+![GitHub repo size](https://img.shields.io/github/repo-size/freitasj1/projeteHERO?style=for-the-badge)
 
-![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO)
-
-
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/freitasj1/projeteHERO)
-
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=fot-the-badge)
-<img src="https://img.shields.io/github/issues-pr/freitasj1/ProjeteHERO?style=for-the-badge"/>
+![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO?style=for-the-badge)
 
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/freitasj1/projeteHERO?style=for-the-badge)
+
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=for-the-badge)
 
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=flat-square&logoColor=%23d9d9d9&color=%230099ff)
-
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/freitasj1/projeteHERO)
-
-
-![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO)
 
 
 # Título do Projeto
