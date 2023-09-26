@@ -1,22 +1,21 @@
-<!-- Divisão com flexbox -->
-<div style="display: flex; justify-content: space-between;">
-    <!-- Badge 1 -->
-    <a href="https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=flat-square&logoColor=%23d9d9d9&color=%230099ff"><img src="badge1.svg" alt="Last commit  "></a>
+# ProjetoHERO - 2k23 - Equipe 2408
 
-    <a href="Vhttps://img.shields.io/github/languages/code-size/freitasj1/projeteHERO"><img src="badge2.svg" alt="Code size"></a>
+![GitHub repo size](https://img.shields.io/github/repo-size/freitasj1/projeteHERO)
 
-    <!-- Badge 3 -->
-    <a href="https://img.shields.io/github/languages/count/freitasj1/projeteHERO"><img src="badge3.svg" alt="Language"></a>
+![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO)
 
-    <img alt="GitHub commit activity (branch)" src="https://img.shields.io/github/commit-activity/y/freitasj1/projeteHERO?style=flat-square">
 
-</div>
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/freitasj1/projeteHERO)
+
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=fot-the-badge)
+<img src="https://img.shields.io/github/issues-pr/freitasj1/ProjeteHERO?style=for-the-badge"/>
 
 
 
 
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=flat-square&logoColor=%23d9d9d9&color=%230099ff)
 
-
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/freitasj1/projeteHERO)
 
 
 ![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO)
