@@ -1,13 +1,17 @@
 # ProjetoHERO - 2k23 - Equipe 2408
 
+<div align="center">
 ![GitHub repo size](https://img.shields.io/github/repo-size/freitasj1/projeteHERO?style=for-the-badge)
 
 ![GitHub language count](https://img.shields.io/github/languages/count/freitasj1/projeteHERO?style=for-the-badge)
 
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/freitasj1/projeteHERO?style=for-the-badge)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/freitasj1/projeteHERO?style=for-the-badge)
+
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/freitasj1/ProjeteHERO?style=for-the-badge)
+
+</div>
 
 
 
