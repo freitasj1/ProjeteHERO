@@ -5,7 +5,7 @@
 
 BluetoothSerial SerialBT;
 
-const char *pin = "2408"; // Change this to more secure PIN.
+const char *pin = "2408"; 
 
 String device_name = "FrangoAssado";
 
@@ -15,17 +15,21 @@ String device_name = "FrangoAssado";
 #define IN3 27 // GPIO27
 #define IN4 26 // GPIO26
 #define ENB 25 // GPIO25
+#define ledPin 35 // LED
 
 bool forward = false;
 bool backward = false;
 bool left = false;
 bool right = false;
+bool ledOn = false;
 int Speed = 0;
+
+
 
 void setup() {
   Serial.begin(115200);
   SerialBT.begin(device_name);
-  SerialBT.setPin(pin); // Configura a senha Bluetooth
+  SerialBT.setPin(pin); 
 
   Serial.println("Aguardando conexão Bluetooth...");
 
@@ -36,6 +40,7 @@ void setup() {
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
   pinMode(ENB, OUTPUT);
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
@@ -82,11 +87,20 @@ void loop() {
         right = false;
         break;
 
+     case 'O': // Liga o LED
+        digitalWrite(ledPin, HIGH);
+        break;
+
+      case 'D': // Desliga o LED
+        digitalWrite(ledPin, LOW);
+        break;
+        
+
       default:
         break;
     }
 
-    smartcar(); // Chama a função para controlar o carro
+    smartcar(); 
   }
 }
 
@@ -107,15 +121,15 @@ void smartcar() {
     carStop();
     Serial.println("carstop");
   }
-}
+} 
 
 void carforward() {
   digitalWrite(ENA, HIGH);
   digitalWrite(ENB, HIGH);
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
 }
 
 void carbackward() {
@@ -123,8 +137,8 @@ void carbackward() {
   digitalWrite(ENB, HIGH);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, HIGH);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
 }
 
 void carturnleft() {
@@ -132,20 +146,26 @@ void carturnleft() {
   digitalWrite(ENB, HIGH);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
 }
 
 void carturnright() {
+ 
   digitalWrite(ENA, HIGH);
   digitalWrite(ENB, HIGH);
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, HIGH);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
 }
 
 void carStop() {
   digitalWrite(ENA, LOW);
   digitalWrite(ENB, LOW);
+   digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
 }
+
