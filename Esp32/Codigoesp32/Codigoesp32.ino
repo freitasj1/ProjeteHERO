@@ -7,15 +7,15 @@ BluetoothSerial SerialBT;
 
 const char *pin = "2408"; 
 
-String device_name = "FrangoAssado";
+String device_name = "Patolino";
 
 #define ENA 12 // GPIO12
-#define IN1 13 // GPIO13
+#define IN1 33 // GPIO13
 #define IN2 14 // GPIO14
 #define IN3 27 // GPIO27
 #define IN4 26 // GPIO26
 #define ENB 25 // GPIO25
-#define ledPin 35 // LED
+#define ledPin 32 // LED
 
 bool forward = false;
 bool backward = false;
@@ -27,9 +27,11 @@ int Speed = 0;
 
 
 void setup() {
+  
   Serial.begin(115200);
-  SerialBT.begin(device_name);
   SerialBT.setPin(pin); 
+  SerialBT.begin(device_name);
+  
 
   Serial.println("Aguardando conexão Bluetooth...");
 
@@ -87,11 +89,11 @@ void loop() {
         right = false;
         break;
 
-     case 'O': // Liga o LED
+     case 'A': // Liga o LED
         digitalWrite(ledPin, HIGH);
         break;
 
-      case 'D': // Desliga o LED
+      case 'C': // Desliga o LED
         digitalWrite(ledPin, LOW);
         break;
         
@@ -168,4 +170,3 @@ void carStop() {
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, LOW);
 }
-
