@@ -7,6 +7,15 @@ BluetoothSerial SerialBT;
 
 const char *pin = "2408"; 
 
+
+const int botaoPin = 18;  // Pino do botão
+const int relePin = 19;   // Pino conectado ao módulo de relé
+int ledEstado = LOW;     // Inicialmente, o LED está desligado
+int botaoEstado;         // Estado atual do botão
+int ultimoEstadoBotao = LOW;   // Estado anterior do botão
+unsigned long ultimoTempoPressionado = 0;  // Último tempo em que o botão foi pressionado
+unsigned long intervaloDebounce = 50;  // Tempo de debounce em milissegundos
+
 String device_name = "Patolino";
 
 #define ENA 12 // GPIO12
@@ -43,6 +52,10 @@ void setup() {
   pinMode(IN4, OUTPUT);
   pinMode(ENB, OUTPUT);
   pinMode(ledPin, OUTPUT);
+
+  pinMode(botaoPin, INPUT_PULLUP);   // Configura o pino do botão como entrada com pull-up interno
+  pinMode(relePin, OUTPUT);         // Configura o pino do relé como saída
+  digitalWrite(relePin, LOW);      // Desliga o relé inicialmente (LOW = desligado)
 }
 
 void loop() {
@@ -101,6 +114,29 @@ void loop() {
       default:
         break;
     }
+
+    int leituraBotao = digitalRead(botaoPin);
+  
+  if (leituraBotao != ultimoEstadoBotao) {
+    ultimoTempoPressionado = millis();
+  }
+  
+  if ((millis() - ultimoTempoPressionado) > intervaloDebounce) {
+    if (leituraBotao != botaoEstado) {
+      botaoEstado = leituraBotao;
+      if (botaoEstado == LOW) {
+        if (ledEstado == LOW) {
+          ledEstado = HIGH;
+          digitalWrite(relePin, HIGH);   // Liga o relé (HIGH = ligado)
+        } else {
+          ledEstado = LOW;
+          digitalWrite(relePin, LOW);    // Desliga o relé (LOW = desligado)
+        }
+      }
+    }
+  }
+  
+  ultimoEstadoBotao = leituraBotao;
 
     smartcar(); 
   }

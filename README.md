@@ -94,7 +94,7 @@ Nosso projeto visa ensinar de forma interativa e  dinâmica os assuntos da robó
     </td>
     <td align="center">
       <a href="#">
-        <img src="assets/img/integrantes/enzo.jpeg" width="100px" height="100px" alt="Nome da Pessoa 3">
+        <img src="assets/img/integrantes/enzo2.jpeg" width="100px" height="100px" alt="Nome da Pessoa 3">
         <br>
         <sub><b>Enzo</b></sub>
         <p>Hardware e prototipagem</p>
