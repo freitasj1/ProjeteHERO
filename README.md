@@ -25,7 +25,7 @@ Nós somos a equipe 2408 formada por alunos do segundo ano técnico da escola ET
 
 <div style="display: flex; justify-content: space-between;">
     <img src="assets/img/esp32.png" alt="Imagem 1" width="30%">
-    <img src="assets/img/QRcodeSite.png" alt="Imagem 2" width="480" height="270">
+    <img src="assets/img/QRcodeSite.png" alt="Imagem 2" width="20%">
     <img src="assets/img/fotoCarro.jpeg" alt="Imagem 3" width="30%">
 </div>
 y
