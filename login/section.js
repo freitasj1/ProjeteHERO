@@ -28,11 +28,23 @@ const updateSteps = (e) => {
  }
 };
 
-// add click event listeners to all buttons
-buttons.forEach((button) => {
- button.addEventListener("click", updateSteps);
-});
+
 
 function redirecionar1() {
    location.href = "https://www.tinkercad.com/joinclass/ED4HKXZUJ";
 }
+
+
+
+    function sub(){
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value
+        var email = document.getElementById("email").value
+        var message = document.getElementById("message").value
+        if(name != "" && phone != "" && email != "" && message != ""){
+          errorMessage.textContent = "Login bem-sucedido!";
+        } else {
+          errorMessage.textContent = "Credenciais inválidas";
+      }
+        
+    }
